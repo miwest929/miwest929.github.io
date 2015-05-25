@@ -3,9 +3,9 @@ markdown: redcarpet
 highlighter: pygments
 
 # Site settings
-title: "Mediator"
+title: "Blog of Mr. Michael West"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+   Contains the latest outpourings of my mind. Read at your own risk.
 
 email: a-mail@mail.mail
 #blog logo
