@@ -9,12 +9,12 @@ description: > # this means to ignore newlines until "email:"
 
 email: a-mail@mail.mail
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/gear.png"
 # blog cover
 cover: "/assets/images/analytical-engine-main-drawing.jpg"
 
-name: 'Dirk Fabisch'
-author: 'Dirk Fabisch'
+name: 'Michael West'
+author: 'Michael West'
 author_image: "/assets/images/author.jpg"
 
 paginate:	5
@@ -25,7 +25,7 @@ baseurl: ""
 # social icons and sharing options
 social:
   - icon:	twitter
-    url:	https://twitter.com/dirkfabisch
+    url: https://twitter.com/miwestt
     desc: Follow me on twitter
     share_url: http://twitter.com/share
     share_title: ?text=
@@ -39,7 +39,7 @@ social:
 #    share_link: "&amp;u="
 
   - icon:	github
-    url:	https://github.com/dirkfabisch
+    url:	https://github.com/miwest929
     desc:	Fork me on github
     share_url:
     share_title:
@@ -51,3 +51,18 @@ social:
 #    share_url:
 #    share_title:
 #    share_link:
+post:
+  template: _post.txt
+  extension: md
+page: 
+  template: _page.txt
+  extension: md
+editor: vim
+git:
+  branch: master
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Git/username.github.com/
+
