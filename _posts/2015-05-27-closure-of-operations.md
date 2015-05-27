@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Closure of Operations"
-date:   2014-12-21 14:34:25
+date:   2015-05-27 14:34:25
 categories: software development patterns
 tags: featured
 ---
