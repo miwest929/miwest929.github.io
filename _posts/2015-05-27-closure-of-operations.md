@@ -6,7 +6,7 @@ categories: software development patterns
 tags: featured
 ---
 
-Have you ever heard of the coding pattern called `Closure of Operations`. It was introduced in the seminal book `Domain Driven Design`. I guarentee that you've seen this pattern in the wild but probably never knew its name or what its power is.
+Have you heard of the pattern called `Closure of Operations`. It was introduced in the seminal book `Domain Driven Design`. I bet you have seen this pattern before but probably never knew how to refer to it.
 
 The name is derived from the mathematical concept of clossure
   Wikipedia definition:
@@ -17,7 +17,7 @@ Here is an example from your early days of arthmetic: the addition operator. Add
 {% highlight json %}
   {"first_name":"Dolf","last_name":"Lungdren","favorite_movie":"Gone with the Wind"}
 {% endhighlight %}
-That JSON is ugly. We want to format it so it can be proccessed by our brains more efficiently. So let's define an operation called `pretty-print`. Given a JSON document, `pretty-print` will transform it it into something easier on the eyes. Like so:
+That JSON is just plain fugly. We want to format it so it can be proccessed by our brains more efficiently. So let's define an operation called `pretty-print`. Given a JSON document, `pretty-print` will transform it it into something easier on the eyes. Like so:
 {% highlight json %}
   {
     "first_name": "Dolf",
@@ -28,7 +28,7 @@ That JSON is ugly. We want to format it so it can be proccessed by our brains mo
 
 Now, `pretty-print` will always produce a JSON document so we can say that `pretty-print` is closed under the set of all JSON documents.
 
-Here is an example in Javascript:
+Here here is a more pragmatic example in Javascript:
 {% highlight javascript %}
 var Point = function(x, y) {
   this.x = x;
@@ -66,5 +66,5 @@ endPt = new Point(1.0, 0.5);
 computedPt = startPt.mul(2).add(endPt).div(3);
 {% endhighlight %}
 
-This is one of my favorite patterns. It brings the mathematical property of closures into the world of computing. We are saner because of it.
+This is one of my favorite patterns. It brings the mathematical property of closures into the world of computing. We are all saner because of it.
 
